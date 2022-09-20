@@ -6,4 +6,6 @@
 
 <img src="https://user-images.githubusercontent.com/113747791/191139676-475fb703-f1bf-4415-8959-d996843d879b.jpg" width="200"> <img src="https://user-images.githubusercontent.com/113747791/191139634-77254d5a-5a11-4a9b-b076-ee95fbe13af0.jpg" width="200"> <img src="https://user-images.githubusercontent.com/113747791/191140378-631eb1d3-ed77-4696-b6f8-71539e5e10d9.jpg" width="200">
 
-<p>The device features
+<p>The device features fully wireless operation, with the remote control sending actuation signals to the platform. The camera platform will rotate and elevate/depress according to a comparison of its own state and that of the remote control.</p>
+
+
