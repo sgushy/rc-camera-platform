@@ -11,5 +11,6 @@
 <p>The state estimation and feedback control of the system relied entirely on a pair of inertial measurement units (IMUs), consisting of an MPU-9250 on the platform and an MPU-6050 on the remote controller. This was perhaps a bit of a risky choice, as these inexpensive IMU chips do suffer a large amount of background noise in their measurements. However, our signal filter and feedback controller implementation was robust enough to effectively control the system.</p>
 
 <p>The wiring of the device are as follows:</p>
-<img src="https://user-images.githubusercontent.com/113747791/191141739-d6079753-5cf6-444b-a487-4d5f07f1bf83.png" width = 350>
+<img src="https://user-images.githubusercontent.com/113747791/191141739-d6079753-5cf6-444b-a487-4d5f07f1bf83.png" width = 350> <img src="https://user-images.githubusercontent.com/113747791/191141815-7eddf583-0896-4579-b71c-ace7b58204ff.png" width = 350>
+
 
