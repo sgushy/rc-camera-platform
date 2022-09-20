@@ -8,7 +8,7 @@
 
 <img src="https://user-images.githubusercontent.com/113747791/191139676-475fb703-f1bf-4415-8959-d996843d879b.jpg" width="200"> <img src="https://user-images.githubusercontent.com/113747791/191139634-77254d5a-5a11-4a9b-b076-ee95fbe13af0.jpg" width="200"> <img src="https://user-images.githubusercontent.com/113747791/191140378-631eb1d3-ed77-4696-b6f8-71539e5e10d9.jpg" width="200">
 
-<p>The device features fully wireless operation, with the remote control sending actuation signals to the platform. The camera platform will rotate and elevate/depress according to a comparison of its own state and that of the remote control.</p>
+<p>The device features fully wireless operation, with the remote control sending actuation signals to the platform. The camera platform will rotate and elevate/depress according to a comparison of its own state and that of the remote control. Communication is performed using the WLAN antennas on the ESP32, using HTTP to send messages. Multithreading is used to prevent the WLAN operation from blocking the internal state machine.</p>
 
 <p>The state estimation and feedback control of the system relied entirely on a pair of inertial measurement units (IMUs), consisting of an MPU-9250 on the platform and an MPU-6050 on the remote controller. This was perhaps a bit of a risky choice, as these inexpensive IMU chips do suffer a large amount of background noise in their measurements. However, our signal filter and feedback controller implementation was robust enough to effectively control the system.</p>
 
