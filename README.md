@@ -16,3 +16,4 @@
 <p>Firmware was implemented using the following state machines:</p>
 <img src="https://user-images.githubusercontent.com/113747791/191142084-667ed929-38ce-4a0d-be6b-3150c12fb496.png" width=650>
 
+<p>We had initially also planned to incorporate motion tracking by the camera platform via GPS, but the GPS antenna was damaged and the IMUs were too noisy to effectively function on their own in an integrator (and especially a double-integrator!), so this was not implemented. Relics of these planned features can be found, however, within the code.</p>
